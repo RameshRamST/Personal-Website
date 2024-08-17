@@ -22,15 +22,15 @@
                 webdeveloper
             </div>
         </div>
-        <div class="img"><img src="./prfileImage.png" alt="avatar"></div>
+        <div class="img"><img src="./prfileImage.JPG" alt="avatar"></div>
 
         <div class="blo">Hello @ RAM.DESIGN<br> base in Nagercoil</div>
 
         <div class="blo2">
-            © 2023 Drake. All Rights Reserved
+            BACHELOR OF ENGINEERING IN CSE
         </dIv>
         <ul class="logo">
-            <li><i class="fa-brands fa-instagram" style="color: #999999;"></i></li>
+            <li><a href="https://www.instagram.com/sriramesh.artistry?igsh=anVuOTZhdTAyMHVs"></a><i class="fa-brands fa-instagram" style="color: #999999;"></i></a></li>
             <li><a href="https://www.github.com/RameshRamST"><i class="fa-brands fa-github" style="color: #999999;"></i></a></li>
             <li><i class="fa-brands fa-discord" style="color: #999999;"></i></li>
         </ul>
@@ -89,7 +89,8 @@
 
         </div>
         <div>
-            <button class="GOOD"><i class="fa-sharp fa-solid fa-user-tie" style="color: #ffffff;"></i>SERVICE</button>
+             <a href="https://drive.google.com/file/d/16zyzZjZoO4yqj5-51Zy7COCJPdNjVW76/view?usp=drivesdk" class="GOOD" target="_blank">
+            <i class="fa-sharp fa-solid fa-user-tie" style="color: #ffffff;"></i>SERVICE</a>
         </div>
 
         <div class="BIG">My Specializations</div>
@@ -101,13 +102,13 @@
         <div class="special">
             <div class="inter">Internship Experience</div>
             <div class="small">Hands-on experience gained through internships in web development and design.</div>
-            <div class="pro">projects</div>
+            <div id="github-link" class="pro">projects</div>
         </div>
         
         <div class="special">
             <div class="inter">Front-End Development Training</div>
             <div class="small">Academy-trained in front-end development using modern frameworks like React and Angular.</div>
-            <div class="pro">projects</div>
+            <div id="github-link" class="pro">projects</div>
         </div>
         
         <div class="special">
@@ -117,7 +118,7 @@
         </div>
 
         <div>
-            <button class="GOOD"><i class="fa-solid fa-desktop" style="color: #ffffff;"></i>My Skills</button>
+            <a class="GOOD" href="https://drive.google.com/file/d/16zyzZjZoO4yqj5-51Zy7COCJPdNjVW76/view?usp=drivesdk" ><i class="fa-solid fa-desktop" style="color: #ffffff;"></i>My Skills</a>
         </div>
 
 
@@ -158,7 +159,16 @@
     </section>
 
 
-
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+        var githubDiv = document.getElementById('github-link');
+        githubDiv.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent the default action (scrolling)
+            window.location.href = "https://www.github.com/RameshRamST";
+        });
+    });
+</script>
 </body>
 
 </html>
+
